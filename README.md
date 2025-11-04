@@ -8,6 +8,56 @@ You are allowed to utilize the terminal of your choice for these actions, but th
 
 *Note: SSHing via VS Code or another GUI is acceptable provided that the above actions are then accomplished via a terminal therein.*
 
+Your answers should be execedingly short. It is most efficient to answer the questions while you work.
+
+Git:
+
+Paste exactly the output of git remote -v
+
+origin  git@github.com:conchobhar2277/practice_B.git (fetch)
+origin  git@github.com:conchobhar2277/practice_B.git (push)
+
+Makefile:
+
+What target compiles orderlogs with sufficient debug flags
+
+debug
+
+Which target verifies your output is identical to the given reference?
+
+check
+
+
+Linux CLI:
+
+At least one testcase in the testcases file fails, paste a full, single command that runs a failing testcase:
+
+mini_ci testcases/basic_add.s
+
+GDB:
+
+When running a failing testcase, give a line where the program segfault at in its given state. Paste the line.
+
+
+
+
+What is the call stack when the program segfaults in its given state? Paste the call stack output by GDB.
+
+
+After fixing this first issue, the program may segfault in a different place. If this is the case, paste that line and the corresponding callstack as well.
+
+
+C:
+
+Give a logic error that caused the program to segfault. Note, "dereferencing null" is not sufficient.
+
+
+Directly following this bug, how did you resolve the error?
+
+
+After fixing this first issue, the program may have another logic error that causes a segfault. If this is the case, explain the error and how you resolved it as well.
+
+
 # What this repo contains:
 - `main.c`, `reader.c`, `calculator.c` and their corresponding header files.
 - A Makefile
